@@ -1,0 +1,11 @@
+
+<div class="overtop" [hidden]="isHidden">
+    <p>Services Up:</p>
+    <div *ngFor="let i of runningList">
+      {{i}}
+    </div>
+    <p *ngIf="downList.length">Services Down:</p>
+    <div *ngFor="let j of downList">
+      {{j}}
+    </div>
+</div>

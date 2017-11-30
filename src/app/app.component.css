@@ -1,0 +1,26 @@
+body{
+  background-color: magenta;
+}
+
+.block{
+  display: inline-block;
+  padding: 10px;
+}
+
+.circle{
+    border-radius: 110px;
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
